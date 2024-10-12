@@ -1,0 +1,24 @@
+<!-- client/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        form { margin-bottom: 20px; }
+        input, button { margin-right: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Employee Management System</h1>
+    <form id="employee-form">
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <button type="submit">Add Employee</button>
+    </form>
+    <ul id="employee-list"></ul>
+    <script src="script.js"></script>
+</body>
+</html>
